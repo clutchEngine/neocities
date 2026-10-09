@@ -1,0 +1,122 @@
+              @font-face {font-family: "pd";src:url("/load/font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype")}
+            	header {
+                	background: url("https://www.transparenttextures.com/patterns/gun-metal.png"), linear-gradient(134deg, #000 0%, #111 90%, #ab292a 91%, darkred 100%);
+                    padding: 17px;
+                    border-radius: 4px 4px 0px 0px ;
+                }
+                
+                header h1 {letter-spacing: -8px; background: url("https://www.transparenttextures.com/patterns/gun-metal.png"), #df1f27; background-clip: text; color: transparent; font-size: 80px; padding: 0; margin: 0;}
+                
+                .container {
+                	background: #111;
+                    margin: auto; width: 79vw;
+                    font-family: sans-serif;
+                    color: white;
+                    border-radius: 4px;
+                    box-shadow: 3px 3px 4px rgba(0,0,0,0.3), -3px 3px 4px rgba(0,0,0,0.3), -3px -3px 4px rgba(0,0,0,0.3), 3px -3px 4px rgba(0,0,0,0.3);
+                }
+                
+                h1,h2,h3,h4,h5,h6 {padding: 0; margin: 0;}
+                
+                .subcontainer {
+                	display: flex;
+                    justify-content: center;
+                }
+                .sidebar {width: 20%; box-sizing: border-box; padding: 7px; background: linear-gradient(to right, #444, #111); border-right: 1px solid #444;}
+                .main-content {width: 80%; box-sizing: border-box; padding: 7px; color: white;}
+                
+                footer {border-radius: 0px 0px 30px 30px; text-align: center; background: url("https://www.transparenttextures.com/patterns/gun-metal.png"), black;}
+                
+                .sidebar a {
+                    padding: 7px;
+                    
+                    color: white;
+                    text-decoration: none;
+                    display: block;
+                    text-align: right;
+                    margin-bottom: 7px;
+                    transition: 0.2s all ease-in-out;
+                    border-radius: 3px;
+                    border-bottom: 1px solid #444;
+                }
+                
+                .sidebar a:hover {
+                  color: red;
+                  transform: translateY(2px);
+                  box-shadow: 1px 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.3), -1px -1px 1px rgba(0,0,0,0.3), 1px -1px 1px rgba(0,0,0,0.3);
+                  text-decoration: none;
+                }
+                
+                .sidebar a:focus {
+                  color: red;
+                  transform: translateY(3px);
+                  box-shadow: 1px 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.3), -1px -1px 1px rgba(0,0,0,0.3), 1px -1px 1px rgba(0,0,0,0.3);
+                  outline: none;
+                }
+                
+                .sidebar h3 {
+                  margin-top: 7px;
+                  padding-top: 7px;
+                }
+                
+                .sidebar h3:nth-of-type(1) {
+                  border-top: none;
+                  margin-top: 0;
+                  padding-top: 0;
+                }
+                
+                a {color: red; text-decoration: none; font-weight: bold;}
+
+                .main-content h2 {
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                
+                body {
+                  background: url("https://frutigeraeroarchive.org/images/wallpapers/windows_7/windows_7_8.jpg"); background-size: cover;
+                }
+                
+                .dramatic,.card h1, h2, h3, h4, h5, h6, h1{font-family:pd,"Playfair Display";}
+                .dramatic.i {font-style:italic;}
+                .qa {width:98%;text-align:right;font-weight:normal;}
+                
+                /* Keep Android Open banner and dramatic stuff */
+                .kao-banner {
+              margin: -7px;
+              width: 49vw;
+              margin: auto;
+              border-radius: 7px;
+              width: 90%;
+              background: linear-gradient(orange, orangered);
+              text-transform: lowercase;
+              letter-spacing: -1px;
+            }
+            
+            /*body {
+              perspective: 800px;
+              background: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url("https://frutigeraeroarchive.org/images/wallpapers/vectordelia/vectordelia_6.jpg"); background-size: cover;
+            }
+            
+            .container {
+              transform:rotate(10deg) rotateX(4deg) translateZ(-400px);
+            }*/
+            /* END OF DRAMATIC AND KAO */
+            
+            .card h1, .card h2, .card h3, .card h4 {padding:0;margin:0;}
+            
+            .card {
+              padding: 7px 17px;
+              border: 1px solid #333;
+            }
+            
+            .card a {
+              display: block;
+              text-transform: uppercase;
+              font-weight: normal;
+              color: #aaa;
+              transition: 0.2s all ease-in-out;
+            }
+            
+            .card a:hover {
+              color: #fff;
+            }
